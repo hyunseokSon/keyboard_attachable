@@ -121,7 +121,7 @@ class _KeyboardAttachableState extends State<KeyboardAttachable>
           sizeFactor: offsetAnimation,
           child: Container(
             height: _bottomInset,
-            color: widget.backgroundColor,
+            color: Colors.transparent,
           ),
         ),
       ],
